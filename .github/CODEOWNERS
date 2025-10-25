@@ -1,0 +1,9 @@
+# Code Owners
+# This file defines who should review pull requests
+
+* @your-github-username
+
+# Specific file ownership
+/lib/auth/ @your-github-username
+/app/api/ @your-github-username
+/components/ @your-github-username

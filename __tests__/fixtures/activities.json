@@ -1,0 +1,25 @@
+{
+  "activities": [
+    {
+      "id": "1",
+      "userId": "1",
+      "action": "User logged in",
+      "resourceType": "auth",
+      "timestamp": "2024-10-25T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "action": "User created",
+      "resourceType": "user",
+      "timestamp": "2024-10-25T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "action": "System backup completed",
+      "resourceType": "system",
+      "timestamp": "2024-10-25T08:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "production-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Next.js 15 fullstack application",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,md,json}\"",
+    "lint": "next lint",
+    "start": "next start",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jest/globals": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "crypto": "latest",
+    "fs": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "^15.0.0",
+    "path": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^22",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.0.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0",
+    "postcss": "^8.5",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^4.1.9",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=11.0.0"
+  }
+}
