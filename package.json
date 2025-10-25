@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@jest/globals": "latest",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-popover": "^1.1.15",
     "@tailwindcss/postcss": "^4.1.16",
     "babel-plugin-react-compiler": "^1.0.0",
     "class-variance-authority": "^0.7.1",

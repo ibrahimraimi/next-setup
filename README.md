@@ -159,7 +159,7 @@ npm install -g vercel
 vercel
 ```
 
-## 📚 Documentation
+## Documentation
 
 - \`docs/ARCHITECTURE.md\` - Detailed architecture documentation
 - \`docs/API.md\` - API reference and endpoints
