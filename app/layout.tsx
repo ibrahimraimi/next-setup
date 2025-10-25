@@ -1,7 +1,15 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { Archivo } from "next/font/google";
 
-import "./globals.css"
+import "@/styles/globals.css";
+
+const archivo = Archivo({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "variable",
+  variable: "--font-archivo",
+});
 
 export const metadata: Metadata = {
   title: "Production App",
@@ -16,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className=" antialiased">{children}</body>
+      <body className={`${archivo.className} antialiased`}>{children}</body>
     </html>
   )
 }
