@@ -101,16 +101,6 @@ const SiteHeader = () => {
 
         {/* Mobile Menu Popover */}
         <MobileNav activeItem={activeItem} setActiveItem={setActiveItem} />
-
-        {/* <div className="hidden items-center gap-2 lg:flex">
-          <Button
-            variant="outline"
-            size="sm"
-            className="h-10 py-2.5 text-sm font-normal"
-          >
-            Sign Up
-          </Button>
-        </div> */}
       </nav>
     </section>
   );
@@ -157,7 +147,7 @@ const MobileNav = ({
 
         <PopoverContent
           align="end"
-          className="relative -right-4 top-4 block w-[calc(100vw-32px)] overflow-hidden rounded-xl p-0 sm:right-auto sm:top-auto sm:w-80 lg:hidden"
+          className="relative top-4 block w-[calc(100vw-32px)] overflow-hidden rounded-xl p-0 sm:right-auto sm:top-auto sm:w-80 lg:hidden"
         >
           <ul className="bg-background text-foreground w-full py-4">
             {NAV_ITEMS.map((navItem, idx) => (
@@ -175,9 +165,6 @@ const MobileNav = ({
                 </a>
               </li>
             ))}
-            <li className="flex flex-col px-7 py-2">
-              <Button variant="outline">Sign Up</Button>
-            </li>
           </ul>
         </PopoverContent>
       </Popover>
