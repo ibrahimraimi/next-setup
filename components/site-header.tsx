@@ -18,9 +18,9 @@ import {
 
 const NAV_LOGO = {
   url: "",
-  src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
+  src: "/placeholder-logo.svg",
   alt: "logo",
-  title: "Nextjs",
+  title: "",
 };
 const NAV_ITEMS = [
   { name: "Home", link: "/" },
@@ -60,7 +60,7 @@ const SiteHeader = () => {
       <nav className="container flex items-center justify-between">
         {/* Left WordMark */}
         <a href={NAV_LOGO.url} className="flex items-center gap-2">
-          <img src={NAV_LOGO.src} className="max-h-8 w-8" alt={NAV_LOGO.alt} />
+          <img src={NAV_LOGO.src} className="max-h-30 w-30" alt={NAV_LOGO.alt} />
           <span className="text-lg font-semibold tracking-tighter">
             {NAV_LOGO.title}
           </span>
